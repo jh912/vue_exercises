@@ -5,6 +5,14 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+//引入eleui组件库
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+
+Vue.use(ElementUI);
+
+
 new Vue({
   router,
   store,
